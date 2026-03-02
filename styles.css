@@ -1,5 +1,8 @@
 .spinner {
-    /* Your styling */
+    width: 15px;
+    height: 15px;
+    border: 3px solid skyblue;
+    border-radius: 50%;
     animation: spin 1s linear infinite; /* Required */
 }
 
@@ -9,13 +12,17 @@
 }
 
 .border-grid {
-    display: grid; /* or display: flex */
-    /* Additional layout properties */
+    display: grid; 
+    border: 2px skyblue;
+    grid-template-columns: auto auto;
+    gap: 6px;
+
+
 }
 
 .error {
     color: red;
-    /* Additional styling */
+    font-size: xx-small;
 }
 
 .hidden {
