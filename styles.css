@@ -17,16 +17,20 @@
     grid-template-columns: auto auto;
     gap: 6px;
 
-
 }
 
 .error {
     color: red;
+    text-align: center;
     font-size: xx-small;
 }
 
 .hidden {
     display: none;
+}
+
+h1{
+    font-family: 'Lucida Sans Unicode';
 }
 
 
